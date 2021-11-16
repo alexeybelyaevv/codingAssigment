@@ -31,7 +31,7 @@ On `/profile` you can find a basic profile form. It seems to be a little slow to
 
 Find out why this is the case and refactor the code to improve the responsiveness. For this you can edit the `profile.tsx` and `FormInput.tsx` files, but you may not remove the `wait(50)` statement which slows the rendering of the input field.
 
-Explain how you found the issue and what you did to resolve it.
+Explain how you found the issue and what you did to resolve it (hint: `useMemo` or `React.memo` are not necessary here!).
 
 ### Button component
 In `components/Button.tsx` you'll find a starting point for a button component. Implement the design of the button found [here](https://www.sketch.com/s/d9aab920-a4c4-40fc-bbb5-894053afd607). Use [TailwindCSS](https://tailwindcss.com/) for the styling - it has been set up in the project already.
