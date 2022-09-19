@@ -22,20 +22,20 @@ export default function Button({
         text: "text-xs",
       };
       break;
-    case "md":
-    default:
-      _size = {
-        px: "3",
-        py: "2",
-        text: "text",
-      };
-      break;
 
     case "lg":
       _size = {
         px: "5",
         py: "3",
         text: "text-xl",
+      };
+      break;
+
+    default:
+      _size = {
+        px: "3",
+        py: "2",
+        text: "text",
       };
   }
   [size];
